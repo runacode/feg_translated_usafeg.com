@@ -12,7 +12,6 @@ switch ($path) {
         require_once(dirname(__FILE__) . "/pixelcode/pixelcloaker.php");
         break;
     case $ActualPixelUrl:  //this is the actual pixel
-        break;
         include_once(dirname(__FILE__) . "/pixelcode/actualpixel.php");
         break;
     default :
